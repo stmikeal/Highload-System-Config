@@ -1,5 +1,5 @@
 jwt:
   private:
-    key: classpath:key
+    key: file:key
   public:
-    key: classpath:key.pub
+    key: file:key.pub
