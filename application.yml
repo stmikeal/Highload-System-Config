@@ -1,2 +1,5 @@
-info:
-  bar: foo
+jwt:
+  private:
+    key: classpath:key
+  public:
+    key: classpath:key.pub
