@@ -4,7 +4,6 @@ jwt:
   public:
     key: classpath:key.pub
 
-kafka.server: ${KAFKA_URL}
 kafka.group.id: server.broadcast
 kafka.consumer.id: consumerServer
 kafka.producer.id: producerServer
